@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "smoothselection",
+  "version": "${version}",
+
+  "name": "SmoothSelection",
+  "description": "Adds a smooth transition between selected hotbar slots.",
+  "authors": ["Jad Chehimi"],
+  "contact": {
+    "homepage": "https://curseforge.com/mc-mods/SmoothSelection",
+    "sources": "https://github.com/jadc/SmoothSelection"
+  },
+
+  "license": "MIT",
+  "icon": "assets/smoothselection/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [ "red.jad.smoothselection.Main" ],
+    "modmenu": [ "red.jad.smoothselection.config.ModMenuIntegration" ]
+  },
+  "mixins": [
+    "smoothselection.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  }
+}

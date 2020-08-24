@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.smoothselection.title": "SmoothSelection",
+  "text.autoconfig.smoothselection.option.enabled": "Enabled",
+  "text.autoconfig.smoothselection.option.speed": "Speed",
+  "text.autoconfig.smoothselection.option.max_speed": "Max Speed",
+  "text.autoconfig.smoothselection.option.vertical_offset": "Vertical Offset"
+}
